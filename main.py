@@ -295,6 +295,8 @@ class Main:
         if self.settings['autosaving']:
             self.events.autosaving_timer.start()
 
+        self.discord_rpc.update_for_gameplayScreen()
+
         self.logger.info('GAMEPLAY SESSION STARTED')
 
     def finish_gameplay(self):

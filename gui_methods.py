@@ -550,8 +550,6 @@ class GuiMethods(Gui):
         self.enemy1.show()
         self.enemy2.show()
 
-        self.main.discord_rpc.update_for_gameplayScreen()
-
     def close_gameplay_screen(self):
         """Close gameplay screen"""
         self.hide_gameplay_screen()
