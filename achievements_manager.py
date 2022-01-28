@@ -1,6 +1,6 @@
 """
 SHEYMOSU ACHIEVEMENTS MANAGER
-
+//похуй
 SUPPORTED ACHIEVEMENT TRIGGERS (GOALS):
 - time
 - earned_points
